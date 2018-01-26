@@ -1,0 +1,150 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+.contactform {
+  padding: 2vw;
+  font-family: Avenir;
+  font-size: 2.2vw;
+  color: black;
+  font-weight: lighter;
+  vertical-align: center;
+}
+input {
+  padding: 2vw;
+  width: 92vw;
+  font-family: Avenir;
+  font-size: 2.2vw;
+  color: black;
+  font-weight: lighter;
+  vertical-align: center;
+}
+textarea {
+  padding: 2vw;
+  width: 92.1vw;
+  font-family: Avenir;
+  font-size: 2.2vw;
+  color: black;
+  font-weight: lighter;
+  vertical-align: center;
+}
+button {
+  padding: 2vw;
+  font-family: Avenir;
+  font-size: 2.2vw;
+  width: 96.3vw;
+  color: white;
+  font-weight: lighter;
+  vertical-align: center;
+  background-color: #0351FB;
+}
+h2 {
+  font-family: Avenir;
+  font-size: 2vw;
+  color: black;
+  font-weight: lighter;
+  padding: 3vw;
+  vertical-align: center;
+  margin: 0;
+  text-decoration: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 8.5fr 1fr auto;
+  background-color: #0351FB;
+}
+#portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+.footer {
+  order: 3;
+  background-color: rgba(255, 255, 255, 0.6);
+  grid-area: 3 / 1 / 4 / 6;
+  padding: 2vm;
+  text-color: black;
+  align-items: center;
+  float: bottom;
+  }
+.info {
+  background-color: white;
+  grid-area: 4 / 1 / 5 / 6;
+  font-family: Avenir;
+  font-size: 2.2vw;
+  color: black;
+  font-weight: lighter;
+  vertical-align: center;
+}
+p {
+  padding: 6vw;
+  margin: 0;
+}
+a[href$=".html"] {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  padding: 2vw;
+  font-size: 2vw;
+  text-decoration: none;
+  font-family: Avenir;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border: 0;
+}
+img {
+  padding: 2.47vw;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: #0351FB;
+}
+body {
+  background-image: url("/cutoutphotoblue.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.title {
+	grid-column: 1 / span 5;
+  grid-row: 2;
+	font-family: 'La Belle Aurore', cursive;
+	font-weight: lighter;
+	color: white;
+	padding: 5%;
+
+}
+h1{
+	grid-row: 1 / span 5;
+  font-size: 7.5vw;
+  font-weight: lighter;
+  text-align: center;
+}
+a[href$="SarahAd"] {
+	font-family: Avenir;
+	font-size: 2vw;
+  color: black;
+  font-weight: lighter;
+  padding: 3vw;
+  vertical-align: center;
+  margin: 0;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+/* mouse over link */
+a:hover[href$=".html"] {
+    color: rgba(255, 255, 255, 0.6);
+}
+a:hover[href$="SarahAd"] {
+    color: rgba(0, 0, 0, 0.6);
+/*body {
+  display: grid;
+  grid-column: 3/6;
+  background-image: url("/cutoutphoto.png");
+  background-size: 60em 90em;*/
+}
